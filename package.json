@@ -1,0 +1,13 @@
+{
+  "name": "comment-sync-server",
+  "private": true,
+  "workspaces": [
+    "apps/comment-server"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/comment-server",
+    "build": "npm run build -w apps/comment-server",
+    "start": "npm run start -w apps/comment-server",
+    "typecheck": "npm run typecheck -w apps/comment-server"
+  }
+}
